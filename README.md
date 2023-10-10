@@ -43,29 +43,29 @@ Daftar Isi
 Daftar Isi	ii
 Riwayat Perubahan	ii
 1.	Pengantar	1
-1.1	Tujuan	1
+1.1	Tujuan  	1
 1.2	Konvensi	1
 1.3	Audiensi Yang Dituju	1
 1.4	Lingkup Produk	1
-2.	Deskripsi Keseluruhan	2
+3.	Deskripsi Keseluruhan	2
 2.1	Perspektif produk 	2
 2.2	Fungsi Produk	2
 2.3	Lingkungan Pengembangan	3
 2.4	Kendala Desain dan Implementasi	3
 2.5	Dokumentasi Pengguna	3
-3.	Persyaratan Antarmuka	4
+4.	Persyaratan Antarmuka	4
 3.1	Antarmuka Pengguna	4
 3.2	Antarmuka Perangkat Keras	4
 3.3	Antarmuka Perangkat Lunak	5
 3.4	Antarmuka Komunikasi	6
-4.	Fitur	7
+5.	Fitur	7
 4.1	Fitur Sistem	7
-5.	Persyaratan Fungsional Lainnya	8
+6.	Persyaratan Fungsional Lainnya	8
 5.1	Persyaratan Performa	8
 5.2	Persyaratan Keamanan Pengguna	8
 5.3	Persyaratan Keamanan Aplikasi	8
 5.4	Proses Bisnis	9
-6.	Persyaratan Lainnya	11
+7.	Persyaratan Lainnya	11
 Appendix A: Glossary	11
 Appendix B: Model Analisis	12
 
