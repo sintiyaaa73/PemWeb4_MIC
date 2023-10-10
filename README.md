@@ -106,7 +106,7 @@ Pembuatan website kedai kopikita ini memiliki beberapa tujuan, antara lain :
 3. Meningkatkan promosi.
 
 1.2 Konvensi
-Website Kopikita merupakan sebuah website yang dikembangkan sebagai sarana pelayanan yang praktis kepada pelanggan, juga sebagai bentuk promosi dari kedai Kopikita kepada khalayak dengan memanfaatkan teknologi.
+    Website Kopikita merupakan sebuah website yang dikembangkan sebagai sarana pelayanan yang praktis kepada pelanggan, juga sebagai bentuk promosi dari kedai Kopikita kepada khalayak dengan memanfaatkan teknologi.
 Dengan website Kopikita maka pengguna bisa melakukan hal-hal berikut ini, seperti:
 
 1. Melihat katalog menu Kopikita.
@@ -115,18 +115,20 @@ Dengan website Kopikita maka pengguna bisa melakukan hal-hal berikut ini, sepert
 4. Admin dapat mengelola pemesanan delivery dan permintaan booking pelanggan dengan mudah.
    
 1.3 Audiensi yang Dituju
-Dokumen ini ditujukan untuk semua orang, Pengguna Mobile, Pengguna internet umum, serta audiens yang penggemar kopi.
+    Dokumen ini ditujukan untuk semua orang, Pengguna Mobile, Pengguna internet umum, serta audiens yang penggemar kopi.
+    
 1.4 Lingkup Produk
-Lingkup website Kopikita dapat dikatakan cukup luas. Dengan jangkauan teknologi, website dapat diakses oleh siapa saja dengan mudah. Baik oleh kalangan remaja hingga dewasa dapat menikmati website ini melalui smartphone masing-masing. Mereka dapat melakukan pemesanan, pem-booking-an, hingga menyalurkan saran dan kritik mereka melalui website.
+    Lingkup website Kopikita dapat dikatakan cukup luas. Dengan jangkauan teknologi, website dapat diakses oleh siapa saja dengan mudah. Baik oleh kalangan remaja hingga dewasa dapat menikmati website ini melalui smartphone masing-masing. Mereka dapat melakukan pemesanan, pem-booking-an, hingga menyalurkan saran dan kritik mereka melalui website.
 
 2. Deskripsi Keseluruhan
 2.1 Perspektif Produk
-Website Kopikita merupakan website sebuah kedai kopi yang menyediakan profil dan apa saja menu yang tersedia dalam kedai tersebut. Website ini mempermudah para pelanggan untuk melihat katalog dan menghubungi admin untuk melakukan pemesanan, permintaan booking tempat, atau sekadar memberi kritik dan saran.
+    Website Kopikita merupakan website sebuah kedai kopi yang menyediakan profil dan apa saja menu yang tersedia dalam kedai tersebut. Website ini mempermudah para pelanggan untuk melihat katalog dan menghubungi admin untuk melakukan pemesanan, permintaan booking tempat, atau sekadar memberi kritik dan saran.
 
 2.2 Fungsi Web Kopi Kita
-Web Kopi kita memiliki tujuan untuk mempermudah ditemukan oleh calon pelanggan dengan mencari informasi tentang kedai kopi secara online, serta dapat berkomunikasi secara efektif dengan pelanggan dan dapat memungkinkan pelanggan untuk memesan minuman atau makanan sebelum mereka sampai ke kedai kopi. 
+    Web Kopi kita memiliki tujuan untuk mempermudah ditemukan oleh calon pelanggan dengan mencari informasi tentang kedai kopi secara online, serta dapat berkomunikasi secara efektif dengan pelanggan dan dapat memungkinkan pelanggan untuk memesan minuman atau makanan sebelum mereka sampai ke kedai kopi. 
+    
 2.3 Lingkungan Pengembangan
-Website Kopikita memiliki beberapa teknologi yamg dipakai untuk mengembangkan aplikasi, antara lain:
+    Website Kopikita memiliki beberapa teknologi yamg dipakai untuk mengembangkan aplikasi, antara lain:
 
 Bahasa pemrogaman:
  - HTML
@@ -135,8 +137,9 @@ Software pengembangan:
  - Chrome
 
 2.4 Kendala Desain dan Implementasi
-Belum ada kendala yang dialami dalam pengembangan website Kopikita. Web sudah dapat berkembang dengan baik. Sedangkan implementasinya, penggunaan web ini cukup mudah.
-Dokumentasi Pengguna
+    Belum ada kendala yang dialami dalam pengembangan website Kopikita. Web sudah dapat berkembang dengan baik. Sedangkan implementasinya, penggunaan web ini cukup mudah.
+    
+2.5 Dokumentasi Pengguna
 SRS ini dibagi menjadi beberapa bagian, yaitu:
 
 1. Pendahuluan atau pengantar yang berisi gambaran umum dari keseluruhan dokumen SRS, antara lain:
@@ -166,14 +169,17 @@ Pada halaman pembuka akan menampilkan halaman beranda, yang pada beranda tersebu
 B. Tampilan Menu
 
 Pada tampilan menu, akan muncul beberapa hidangan yang tersedia. Terdapat kopi, camilan, yang keseluruhannya dilengkapi dengan harga.
+
 3.4 Antarmuka Komunikasi
-Website Kopikita ini belum menyediakan fitur order dalam aplikasi. Calon pelanggan hanya dapat melihat menu yang tersedia. Sehingga web ini tidak mengharuskan calon pelanggan untuk login.
+    Website Kopikita ini belum menyediakan fitur order dalam aplikasi. Calon pelanggan hanya dapat melihat menu yang tersedia. Sehingga web ini tidak mengharuskan calon pelanggan untuk login.
+    
 4 Fitur
 4.1 Fitur Sistem
 4.1.1 Fitur Menu Home
-Fitur menu home atau beranda merupakan fitur utama pada website Kopikita. Dengan fitur ini, user dapat melihat profil singkat Kedaikita.
+  Fitur menu home atau beranda merupakan fitur utama pada website Kopikita. Dengan fitur ini, user dapat melihat profil singkat Kedaikita.
 4.1.2 Fitur Menu
-Fitur menu merupakan fitur yang memungkinkan user untuk melihat berbagai menu yang tersedia secara lengkap melalui website. Bahkan harga juga tertera untuk menjadi referensi.
+  Fitur menu merupakan fitur yang memungkinkan user untuk melihat berbagai menu yang tersedia secara lengkap melalui website. Bahkan harga juga tertera untuk menjadi referensi.
+  
 5. Persyaratan Fungsional Lainnya
 5.1 Persyaratan Performa
   1. Adanya tampilan katalog dan profil Kopikita.
@@ -222,6 +228,12 @@ Use case diagram adalah proses penggambaran yang dilakukan untuk menunjukkan hub
 [5] Vol 6, No 3 (2018) Aditya https://journal.trunojoyo.ac.id
 [6] Analisis kebutuhan perangkat lunak: studi kasus sistem informasi pusat karier UIN Syarif Hidayatullah Jakarta, Annisa Daffa Oktriyana, (2022)
 [7] Vennina, Githa Ananta (2022) Analisis kebutuhan perangkat lunak sistem informasi back office (Studi kasus Hublang dan teknik Perumdam Among Tirto Kota Batu). Software Development, Digital Business Intelligence, and Computer Engineering, 1 (1): 1. pp. 1-8. ISSN 2963-9026
+
+
+
+
+
+
 PENJELASAN KODINGAN HTML
 
 1.	`<!DOCTYPE html>`: berfungsi untuk memberi tahu komputer bahwa halaman ini adalah halaman web dalam bahasa HTML.
