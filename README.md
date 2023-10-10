@@ -240,7 +240,7 @@ PENJELASAN KODINGAN HTML
 
 2.	`<html lang="en">`: tempat utama di mana seluruh halaman web akan diletakkan. Sedangkan `lang="en"` menunjukkan bahwa halaman ini menggunakan bahasa Inggris.
 
-3.	//`<head>`: bagian yang digunakan tempat untuk informasi penting tentang halaman web, seperti apa yang akan ditampilkan di tab browser. Berisi informasi tentang halaman web, seperti karakter set, judul, tautan ke berkas eksternal, dan lainnya.
+3.	`<head>`: bagian yang digunakan tempat untuk informasi penting tentang halaman web, seperti apa yang akan ditampilkan di tab browser. Berisi informasi tentang halaman web, seperti karakter set, judul, tautan ke berkas eksternal, dan lainnya.
    
 4.	`<meta charset="UTF-8">`: Ini mengatur karakter set dokumen sebagai UTF-8, yang mendukung banyak karakter dan simbol.
    
