@@ -1,18 +1,43 @@
 # PemWeb4_MIC
 Pengembangan Website
+
 Untuk
+
+
+
 Kedai Kopi "Kopikita"
+
 Version 1.0 Disetujui
+
+
+
 Disusun Oleh :
-                           SINTIYA
-22091397079   MIC
-                       ZAHROH SALSABILA                  22091397094   MIC
-                       ROSYIDA AULIYA SALSABILA            			        22091397079   MIC
+
+SINTIYA 22091397079 MIC
+
+ZAHROH SALSABILA 22091397094 MIC
+
+ROSYIDA AULIYA SALSABILA 22091397104 MIC
+
+
+
+
+
+
+
+
 
 D4 Manajemen Informatika
+
 Fakultas Vokasi
+
 Universitas Negeri Surabaya
+
 2023
+
+
+
+Copyright © 1999 by Karl E. Wiegers. Permission is granted to use, modify, and distribute this document.
 
 Daftar Isi
 Daftar Isi	ii
@@ -204,24 +229,25 @@ PENJELASAN KODINGAN HTML
 2.	`<html lang="en">`: tempat utama di mana seluruh halaman web akan diletakkan. Sedangkan `lang="en"` menunjukkan bahwa halaman ini menggunakan bahasa Inggris.
 
 3.	//`<head>`: bagian yang digunakan tempat untuk informasi penting tentang halaman web, seperti apa yang akan ditampilkan di tab browser. Berisi informasi tentang halaman web, seperti karakter set, judul, tautan ke berkas eksternal, dan lainnya.
+   
+4.	`<meta charset="UTF-8">`: Ini mengatur karakter set dokumen sebagai UTF-8, yang mendukung banyak karakter dan simbol.
+   
+5.	`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: berguna untuk memberi tahu browser bagaimana cara menampilkan halaman web secara optimal pada perangkat berbeda. Ini mengatur tampilan halaman agar sesuai dengan lebar perangkat dan tingkat zoom awalnya adalah 1.0.
 
-•	`<meta charset="UTF-8">`: Ini mengatur karakter set dokumen sebagai UTF-8, yang mendukung banyak karakter dan simbol.
+6.	`<title>KopiKita.</title>`: untuk menampilkan judul halaman yang akan muncul di tab browser.
 
-•	`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: berguna untuk memberi tahu browser bagaimana cara menampilkan halaman web secara optimal pada perangkat berbeda. Ini mengatur tampilan halaman agar sesuai dengan lebar perangkat dan tingkat zoom awalnya adalah 1.0.
+7.	`link rel="preconnect"` dan `link href`: untuk menampilkan tautan ke font eksternal dari Google Fonts.
 
-•	`<title>KopiKita.</title>`: untuk menampilkan judul halaman yang akan muncul di tab browser.
+8.	`<script src="https://unpkg.com/feather-icons"></script>`: kodingan tersebut merupakan tautan ke library Feather Icons yang digunakan untuk menampilkan ikon pada halaman web.
 
-•	`link rel="preconnect"` dan `link href`: untuk menampilkan tautan ke font eksternal dari Google Fonts.
+9.	`<link rel="stylesheet" href="css/style.css" />`: merupakan tautan ke berkas CSS eksternal yang akan mengatur tampilan halaman.
 
-•	`<script src="https://unpkg.com/feather-icons"></script>`: kodingan tersebut merupakan tautan ke library Feather Icons yang digunakan untuk menampilkan ikon pada halaman web.
+10.	`<body>`: bagian ini berisi konten aktual yang akan ditampilkan pada halaman web. Mencakup navigasi dengan tautan ke berbagai bagian halaman, bagian hero (bagian atas) dengan judul, deskripsi, dan tombol "Beli Sekarang", bagian "Tentang Kami" dengan gambar dan teks yang menjelaskan tentang kedai kopi, bagian "Menu" dengan daftar menu kopi yang ditampilkan dengan gambar, bagian "Kontak" dengan peta Google Maps dan formulir kontak, footer (bagian bawah) dengan tautan sosial media, tautan navigasi, dan kredit pembuat halaman web.
 
-•	`<link rel="stylesheet" href="css/style.css" />`: merupakan tautan ke berkas CSS eksternal yang akan mengatur tampilan halaman.
 
-4.	`<body>`: bagian ini berisi konten aktual yang akan ditampilkan pada halaman web. Mencakup navigasi dengan tautan ke berbagai bagian halaman, bagian hero (bagian atas) dengan judul, deskripsi, dan tombol "Beli Sekarang", bagian "Tentang Kami" dengan gambar dan teks yang menjelaskan tentang kedai kopi, bagian "Menu" dengan daftar menu kopi yang ditampilkan dengan gambar, bagian "Kontak" dengan peta Google Maps dan formulir kontak, footer (bagian bawah) dengan tautan sosial media, tautan navigasi, dan kredit pembuat halaman web.
+11.	`<script> feather.replace(); </script>`: berguna untuk mengaktifkan ikon Feather Icons pada halaman.
 
-5.	`<script> feather.replace(); </script>`: berguna untuk mengaktifkan ikon Feather Icons pada halaman.
-
-6.	`<script src="js/script.js"></script>`: digunakan untuk menghubungkan halaman web dengan berkas JavaScript eksternal `script.js`, yang mungkin digunakan untuk menambahkan interaktivitas tambahan atau fungsi lainnya ke halaman web.
+12.	`<script src="js/script.js"></script>`: digunakan untuk menghubungkan halaman web dengan berkas JavaScript eksternal `script.js`, yang mungkin digunakan untuk menambahkan interaktivitas tambahan atau fungsi lainnya ke halaman web.
 
 PENJELASAN KODINGAN CSS
 
