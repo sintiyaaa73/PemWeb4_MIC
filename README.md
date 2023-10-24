@@ -306,3 +306,17 @@ PENJELASAN KODINGAN CSS
 7. `.navbar .navbar-nav a`: merupakan selector untuk tautan dalam navbar. Selector tersebut mengatur warna teks tautan dan ukuran font, serta memberi efek hover dengan mengubah warna teks saat tautan ditemukan oleh kursor.
 
 8. `.navbar .navbar-nav a:after`: merupakan selector untuk menambahkan garis bawah tautan setelah tautan dipilih.
+
+PENJELASAN CODINGAN JS
+
+Baris 2: Kode ini mencoba untuk memilih elemen HTML dengan kelas "navbar-nav" menggunakan "document.querySelector" dan menyimpannya dalam variabel "navbarnav".
+
+2. Baris 4-6: Inilah event handler yang akan dipicu ketika elemen HTML dengan ID "menu" diklik. Ketika elemen tersebut diklik, kelas "aktif" pada elemen dengan kelas "navbar-nav" akan diaktifkan. Artinya, jika kelas "aktif" sudah ada, maka akan dihapus; jika belum ada, maka akan ditambahkan.
+
+3. Baris 9: Pada baris ini, kode mencoba untuk memilih elemen HTML dengan ID "menu" dan menyimpannya dalam variabel "menu".
+
+4. Baris 11-14: Ini mencoba memeriksa apakah klik terjadi di luar elemen yang ada, khususnya elemen dengan ID "menu" dan elemen dengan kelas "navbar-nav". Jika ada klik di luar elemen tersebut, maka kelas "aktif" pada elemen dengan kelas "navbar-nav" akan dihapus.
+
+5. Baris 15-16: Ini adalah sampul blok kode yang melacak klik di luar elemen. Namun, perlu dicatat bahwa ada kebingungan mengenai variabel "e" yang digunakan di sini. Anda perlu memastikan bahwa variabel 'e' telah ditentukan sebelumnya dalam cakupan yang benar.
+
+Kode ini tampaknya dirancang untuk mengontrol tampilan atau perilaku elemen "navbar-nav" dengan menambahkan atau menghapus kelas "aktif" ketika elemen "menu" diklik, dan ketika diklik terjadi di luar area tersebut. Namun, perlu diperbaiki beberapa potensi bug, terutama mengenai variabel 'e' yang digunakan di dalam event handler.
