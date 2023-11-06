@@ -216,7 +216,8 @@ Flowchart diagram ini menunjukkan alur dalam semua proses yang terdapat di websi
 Use Case Diagram
 Use case diagram adalah proses penggambaran yang dilakukan untuk menunjukkan hubungan antara pengguna dengan sistem yang dirancang.
 
-blob:https://web.whatsapp.com/f82bb1cc-f74b-4e25-97a6-d487c2237545
+blob:![WhatsApp Image 2023-11-06 at 16 17 14](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124550908/13da656b-466f-4781-b5b4-e065da88264b)
+
 
 7. Referensi
 [1] https://escappuccino.com/ PinomarthinApril 8, 2023
