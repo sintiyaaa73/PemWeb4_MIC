@@ -253,7 +253,7 @@ PENJELASAN KODINGAN HTML
 <html lang="en">
 <head> 
 	
-    	3. '<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal. --> 
+    3. '<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal. --> 
     
     	 • <meta charset="UTF-8">: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode). -->
     <meta charset="UTF-8"> 
@@ -285,23 +285,30 @@ PENJELASAN KODINGAN HTML
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
 
-5. `<nav class="navbar">...</nav>`: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen:
-   
-<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, digunakan untuk penyesuaian gaya.`<div class="navbar-nav">...</div>`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak."
+<!-- 5. <nav class="navbar">...</nav>: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen: -->
+<nav class="navbar">
+    <!-- • 5.1 <a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen <span>, digunakan untuk penyesuaian gaya. -->
+    <a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>
+    <!-- • 5.2 <div class="navbar-nav">...</div>: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak." -->
+    <div class="navbar-nav">...</div>
+</nav>
 
-6. `<div class="navbar-extra">...</div>`: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain:
-   
-<a href="#" id="search-button"><i data-feather="search"></i></a>`: Menampilkan ikon search menggunakan Feather Icons.
+<!-- 6. <div class="navbar-extra">...</div>: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain: -->
+<div class="navbar-extra">
+    <!-- • 6.1 <a href="#" id="search-button"><i data-feather="search"></i></a>: Menampilkan ikon search menggunakan Feather Icons. -->
+    <a href="#" id="search-button"><i data-feather="search"></i></a>
+    <!-- • 6.2 <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>: Menampilkan ikon keranjang belanja menggunakan Feather Icons. -->
+    <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+</div>
 
-<a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>`: Menampilkan ikon keranjang belanja menggunakan Feather Icons.
+<!-- 7. Kode di bawahnya adalah bagian dari pencarian (search form) yang belum sepenuhnya lengkap: -->
+<div class="search-form">
+    <!-- • 7.1 <input type="search" id="search-box" placeholder="search here...">: Ini adalah kotak input untuk memasukkan kata kunci pencarian. -->
+    <input type="search" id="search-box" placeholder="search here...">
+    <!-- • 7.2 <label for="search-box"><i data-feather="search"></i></label>: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search. -->
+    <label for="search-box"><i data-feather="search"></i></label>
+</div>
 
-7. Kode di bawahnya adalah bagian dari pencarian (search form) yang belum sepenuhnya lengkap:
-   
-`<div class="search-form">...</div>`: Ini tampaknya adalah bagian formulir pencarian.
-
-`<input type="search" id="search-box" placeholder="search here...">`: Ini adalah kotak input untuk memasukkan kata kunci pencarian.
-
-`<label for="search-box"><1 data-feather="search"></i></label>`: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search.
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/7a7cc06d-182c-45ee-a386-c7f880e799e8)
 
