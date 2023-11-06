@@ -272,7 +272,7 @@ PENJELASAN KODINGAN HTML
 
 5. `<nav class="navbar">...</nav>`: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen:
    
-	<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, 		digunakan untuk penyesuaian gaya.`< div class="navbar-nav" >...< /div >`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," 	dan "Kontak."
+	<a href="#" class="navbar-logo"> Kopi< span >Kita< /span >.< /a >`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, 		digunakan untuk penyesuaian gaya.`< div class="navbar-nav" >...< /div >`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," 	dan "Kontak."
 
 6. `< div class="navbar-extra" >...< /div >`: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain:
    
