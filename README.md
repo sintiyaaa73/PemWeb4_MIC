@@ -8,7 +8,6 @@ Kedai Kopi "Kopikita"
 Version 1.0 Disetujui
 
 
-![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/bce9cf39-9a94-4545-883b-62218075238b)
 
 Disusun Oleh :
 SINTIYA 22091397079 MIC
