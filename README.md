@@ -572,7 +572,7 @@ PENJELASAN KODINGAN JS
 
 8.	`const menu = document.querySelector("#menu");` mendefinisikan konstanta `menu` yang menyimpan referensi ke elemen dengan id "menu" di dalam dokumen 	HTML.
 
-9. 	`document.addEventListener("click", function (e) { ... });` digunakan untuk menambahkan event listener pada dokumen untuk mendengarkan setiap kali 	klik terjadi di halaman. Fungsi tersebut memeriksa apakah klik dilakukan di luar elemen `menu` dan di luar elemen `navbarnav`. Jika ya, maka kelas 	"active" di elemen `navbarnav` dihapus, sehingga menu akan disembunyikan jika pengguna mengklik di luar area menu.
+9. 	`document.addEventListener("click", function (e) { ... });` digunakan untuk menambahkan event listener pada dokumen untuk mendengarkan setiap kali 	klik terjadi di halaman. Fungsi tersebut memeriksa apakah klik dilakukan di luar elemen `menu` dan di luar elemen `navbarnav`. Jika ya, maka kelas 	"active" di elemen `navbarnav` dihapus, sehingga menu akan disembunyikan jika pengguna mengklik di luar area menu. 
 
 
 
