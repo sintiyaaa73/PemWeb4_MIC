@@ -447,62 +447,102 @@ PENJELASAN KODINGAN CSS
 	•	Color: warna font
 	•	Background-color: warna latar
 	•	Border-radius: ujung bulat
-	•	Box-shadow: bayangan 
+	•	Box-shadow: bayangan
 
-1. `:root`: merupakan pseudo-class yang digunakan untuk mendefinisikan variabel CSS. Dalam kodingan ini, didefinisikan dua variabel utama:
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/a07faa70-e8a8-4cd1-9ffc-a22db16b0fa6)
 
-•	`--primary`: variabel ini digunakan untuk menyimpan warna utama dalam kode hex.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/5085124d-3747-4adc-8ac9-ca7fddbcd693)
 
-•	`--bg`: variabel ini digunakan untuk menyimpan warna latar belakang halaman web dalam kode hex.
+22.	.about, .menu, .contact memberikan styling umum untuk ketiga section
+23.	.about h2, .menu h2, .contact h2 styling judul heading pada masing-masing section
+	•	Text-align: center; rata tengah
+	•	Font-size: 2.6rem; ukuran font
+	•	Margin-bottom: 3rem; jarak dengan konten bawahnya
+24.	.about h2 span, .menu h2 span, .contact h2 span memberi styling khusus warna primary pada span di dalam heading
+25.	.about .row styling container row di dalam about section
+26.	.about .row .about-img styling kolom img agar lebarnya 45rem
+27.	.about .row .content styling kolom content/text, lebar 35rem dan padding horizontal 1rem
+28.	.about .row .content h3 styling judul di dalam kolom content
+29.	.about .row .content p styling paragraph di dalam kolom content 
 
-2. `*`: simbol tersebut merupakan selektor universal yang memengaruhi semua elemen HTML di halaman web. Simbol `*` digunakan untuk mengatur beberapa hal secara serentak untuk semua elemen HTML, seperti paragraf, header, gambar, tombol, dan lain sebagainya. Beberapa aturan yang diterapkan pada semua elemen HTML melalui selektor universal ini, yaitu:
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/825851c3-bb14-410e-8c8d-2e39f74ec278)
 
-•	Menghapus margin dan padding default yaitu ruang kosong di sekitar dan di dalam elemen yang biasanya dimiliki elemen HTML.
+30.	.menu h2, .contact h2 mengubah margin bottom pada judul section menu dan contact menjadi 1 rem 
+31.	.menu p, .contact p styling paragraph deksripsi di menu dan contact
+	•	Text-align: center; rata tengah 
+	•	Max-width: 30rem; lebar maksimal 30rem
+	•	Margin: auto; center secara horizontal
+	•	Font-weight: 100; ketebalan font tipis
+	•	Line-height: 1.6; tinggi baris
+32.	.menu .row styling container row di menu section 
+	•	Display: flex
+	•	Flex-wrap: wrap
+	•	Justify-content: center; center secara horizontal
+33.	.menu .row .menu-card styling card individu dalam row
+	•	Text-align: center;
+	•	Padding-bottom: 2rem;
+34.	.menu .row .menu-card img lebar gambar di dalam menu card 35% dari lebar card
 
-•	Mengatur `box-sizing` ke `border-box`, yang membuat lebar dan tinggi elemen termasuk tepi dan padding.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/4e1d5e64-b349-4fab-b6f5-f653abc4d638)
 
-•	Menghapus garis luar (outline) dan border default elemen HTML.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/e717ef31-6c0d-48d1-a3cc-e55244b01ac2)
 
-•	Menghapus dekorasi teks default seperti garis bawah (underline) dari tautan.
+35.	.contact .row membuat layout flexbox untuk contact section
+36.	.contact .row .map styling untuk elemen peta
+	•	Flex: 1; menempati sisa space fleksibel
+	•	Width: 70%; lebar 70% dari section 
+	•	Object-fit: cover; peta mengcover elemen
+37.	.contact .row form styling untuk form
+	•	Flex: 1; menempati sisa space fleksibel
+	•	Padding: 2rem; padding dalamnya 2 rem
+	•	Text-align: center; konten form rata tengah
+38.	.contact .row form .input-group styleing container input
+	•	Display: flex; agar input dan label bersebelahan 
+	•	Align-items: center; posisi vertical center
+	•	Margin-top: 2rem; jarak dengan elemen sebelumnya
+	•	Padding-left: 2rem; padding kiri 2 rem 
+39.	.contact .row form input beberapa styling untuk input text
+40.	.contact .row form .btn
+	•	Margin-top: 3rem; jarak dengan input
+	•	Padding: isi padding
+	•	Font-sixe: ukuran font
+	•	Background-color: warna background
+	•	Cursor: pointer; kursor menjadi pointer saat hover 
 
-3. `html`: merupakan selector untuk elemen `<html>` dan digunakan untuk mengatur perilaku halaman web.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/7d5cc0bd-968c-420a-adb5-8958ce3ca072)
 
-4. `body`: merupakan selector untuk elemen `<body>`. Selector ini yang mengatur tampilan halaman secara keseluruhan. Diantaranya:
+41.	Footer styling umum untuk footer
+	•	Background-color: var(--primary); warna background
+	•	Text-align: center; konten rata tengah
+	•	Padding: isi padding
+	•	Margin-top: 3rem; jarak dengan konten atasnya
+42.	.footer .socials styling container untuk sosial media
+43.	.footer .socials a
+	•	Color: #fff; warna putih 
+	•	Margin: 1rem; jarak antar link
+44.	.footer .links styling container untuk links/menu
+45.	.footer .links a styling link
+	•	Color: #fff; warna putih
+	•	Padding: isi padding
+46.	.footer .credit styling text credit
+47.	.footer .credit a styling link di credit
+	•	Color: var(--bg); warna background
+	•	Font-weight:700; tebal
 
-•	Menggunakan font "Poppins" atau font sans-serif jika "Poppins" tidak tersedia.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/d3ee8200-c61f-4c3c-a1ea-dc2b69c3a123)
 
-•	Mengatur latar belakang halaman menggunakan variabel `--bg`.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/8b3fde97-06ff-4667-89b3-3ca7ac0ac4dd)
 
-•	Mengatur warna teks menjadi putih (`#fff`).
 
-5. `.navbar`: merupakan selector untuk elemen dengan kelas `.navbar`, yang mengatur tampilan navbar di bagian atas halaman. Selector ini melakukan beberapa pengaturan , yaitu:
-
-•	Menyusun elemen-elemen dalam navbar dengan jarak yang sesuai.
-
-•	Mengatur latar belakang dengan warna transparan hitam (RGBA) untuk efek latar belakang semi-transparan.
-
-•	Menambahkan border bawah dan z-index agar navbar selalu terlihat di atas konten halaman lainnya.
-
-6. `.navbar .navbar-logo`: merupakan selector untuk elemen dengan kelas `.navbar-logo` yang ada di dalam navbar, yaitu:
-
-•	Ukuran font, bobot font, dan warna teks logo.
-
-•	Memberi warna berbeda pada bagian kata "Kopi" menggunakan variabel `--primary`.
-
-7. `.navbar .navbar-nav a`: merupakan selector untuk tautan dalam navbar. Selector tersebut mengatur warna teks tautan dan ukuran font, serta memberi efek hover dengan mengubah warna teks saat tautan ditemukan oleh kursor.
-
-8. `.navbar .navbar-nav a:after`: merupakan selector untuk menambahkan garis bawah tautan setelah tautan dipilih.
-
-PENJELASAN CODINGAN JS
-
-Baris 2: Kode ini mencoba untuk memilih elemen HTML dengan kelas "navbar-nav" menggunakan "document.querySelector" dan menyimpannya dalam variabel "navbarnav".
-
-2. Baris 4-6: Inilah event handler yang akan dipicu ketika elemen HTML dengan ID "menu" diklik. Ketika elemen tersebut diklik, kelas "aktif" pada elemen dengan kelas "navbar-nav" akan diaktifkan. Artinya, jika kelas "aktif" sudah ada, maka akan dihapus; jika belum ada, maka akan ditambahkan.
-
-3. Baris 9: Pada baris ini, kode mencoba untuk memilih elemen HTML dengan ID "menu" dan menyimpannya dalam variabel "menu".
-
-4. Baris 11-14: Ini mencoba memeriksa apakah klik terjadi di luar elemen yang ada, khususnya elemen dengan ID "menu" dan elemen dengan kelas "navbar-nav". Jika ada klik di luar elemen tersebut, maka kelas "aktif" pada elemen dengan kelas "navbar-nav" akan dihapus.
-
-5. Baris 15-16: Ini adalah sampul blok kode yang melacak klik di luar elemen. Namun, perlu dicatat bahwa ada kebingungan mengenai variabel "e" yang digunakan di sini. Anda perlu memastikan bahwa variabel 'e' telah ditentukan sebelumnya dalam cakupan yang benar.
-
-Kode ini tampaknya dirancang untuk mengontrol tampilan atau perilaku elemen "navbar-nav" dengan menambahkan atau menghapus kelas "aktif" ketika elemen "menu" diklik, dan ketika diklik terjadi di luar area tersebut. Namun, perlu diperbaiki beberapa potensi bug, terutama mengenai variabel 'e' yang digunakan di dalam event handler.
+48.	Media quary untuk layar laptop dengan lebar maksimal 1366px
+49.	Media quary untuk layar tablet maksimal 758px lebar
+	•	Mengubah font-size html menjadi 62.5% agar teks mengecil di tablet
+	•	Membuat layout about section menjadi wrap di tablet
+	•	Mengatur tinggi gambar about 24rem dan objeknya mengcover space
+	•	Menghilangkan padding konten about di tablet
+	•	Mengatur margin heading about di tablet
+	•	Mengubah ukuran font paragraf di section menu
+	•	Membuat layout contact section wrap di tablet
+	•	Mengubah tinggi peta di tablet
+	•	Menghilangkan padding atas form contact di tablet 
+50.	Jadi media queris ini untuk menyesuaikan styling di berbagai ukuran layar agar website responsif.
