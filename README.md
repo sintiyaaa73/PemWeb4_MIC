@@ -248,21 +248,21 @@ PENJELASAN KODINGAN HTML
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/4586fc2b-dc67-4468-9838-674db2385f3c)
 
-1. '<!DOCTYPE html>' : Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5.
+1. '< !DOCTYPE html >' : Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5.
 
-2.	‘<html lang="en">’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English).
+2.	‘< html lang="en" >’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English).
    
 3.	'<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal.
 
-•	<meta charset="UTF-8">: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode).
+•	< meta charset="UTF-8" >: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode).
 
-•	<meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan mengatur tingkat zoom awal.
+•	< meta name="viewport" content="width=device-width, initial-scale=1.0" >: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan mengatur tingkat zoom awal.
 
 •	<title>KopiKita.</title>: Menyediakan judul halaman web yang akan ditampilkan di tab peramban.
 
 •	Referensi font eksternal dari Google Fonts. Ini digunakan untuk mengambil jenis huruf Poppins dengan berbagai varian yang akan digunakan dalam desain halaman web.
 
-•	<script src="https://unpkg.com/feather-icons"></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web.
+•	<script src="https :// unpkg .com/feather-icons "></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web.
 
 •	Referensi ke file CSS eksternal yang digunakan untuk mengatur gaya halaman web. File "style.css" akan mengatur tampilan dan gaya halaman.
 
