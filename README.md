@@ -253,15 +253,17 @@ PENJELASAN KODINGAN HTML
 7.	`link rel="preconnect"` dan `link href`: untuk menampilkan tautan ke font eksternal dari Google Fonts.
 
 8.	`<script src="https://unpkg.com/feather-icons"></script>`: kodingan tersebut merupakan tautan ke library Feather Icons yang digunakan untuk menampilkan ikon pada halaman web.
+9.	
+10.	![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
 
-9.	`<link rel="stylesheet" href="css/style.css" />`: merupakan tautan ke berkas CSS eksternal yang akan mengatur tampilan halaman.
+11.	`<link rel="stylesheet" href="css/style.css" />`: merupakan tautan ke berkas CSS eksternal yang akan mengatur tampilan halaman.
 
-10.	`<body>`: bagian ini berisi konten aktual yang akan ditampilkan pada halaman web. Mencakup navigasi dengan tautan ke berbagai bagian halaman, bagian hero (bagian atas) dengan judul, deskripsi, dan tombol "Beli Sekarang", bagian "Tentang Kami" dengan gambar dan teks yang menjelaskan tentang kedai kopi, bagian "Menu" dengan daftar menu kopi yang ditampilkan dengan gambar, bagian "Kontak" dengan peta Google Maps dan formulir kontak, footer (bagian bawah) dengan tautan sosial media, tautan navigasi, dan kredit pembuat halaman web.
+12.	`<body>`: bagian ini berisi konten aktual yang akan ditampilkan pada halaman web. Mencakup navigasi dengan tautan ke berbagai bagian halaman, bagian hero (bagian atas) dengan judul, deskripsi, dan tombol "Beli Sekarang", bagian "Tentang Kami" dengan gambar dan teks yang menjelaskan tentang kedai kopi, bagian "Menu" dengan daftar menu kopi yang ditampilkan dengan gambar, bagian "Kontak" dengan peta Google Maps dan formulir kontak, footer (bagian bawah) dengan tautan sosial media, tautan navigasi, dan kredit pembuat halaman web.
 
 
-11.	`<script> feather.replace(); </script>`: berguna untuk mengaktifkan ikon Feather Icons pada halaman.
+13.	`<script> feather.replace(); </script>`: berguna untuk mengaktifkan ikon Feather Icons pada halaman.
 
-12.	`<script src="js/script.js"></script>`: digunakan untuk menghubungkan halaman web dengan berkas JavaScript eksternal `script.js`, yang mungkin digunakan untuk menambahkan interaktivitas tambahan atau fungsi lainnya ke halaman web.
+14.	`<script src="js/script.js"></script>`: digunakan untuk menghubungkan halaman web dengan berkas JavaScript eksternal `script.js`, yang mungkin digunakan untuk menambahkan interaktivitas tambahan atau fungsi lainnya ke halaman web.
 
 PENJELASAN KODINGAN CSS
 
