@@ -238,32 +238,38 @@ PENJELASAN KODINGAN HTML
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/4586fc2b-dc67-4468-9838-674db2385f3c)
 
-1.	`<!DOCTYPE html>`: berfungsi untuk memberi tahu komputer bahwa halaman ini adalah halaman web dalam bahasa HTML.
-
-2.	`<html lang="en">`: tempat utama di mana seluruh halaman web akan diletakkan. Sedangkan `lang="en"` menunjukkan bahwa halaman ini menggunakan bahasa Inggris.
-
-3.	`<head>`: bagian yang digunakan tempat untuk informasi penting tentang halaman web, seperti apa yang akan ditampilkan di tab browser. Berisi informasi tentang halaman web, seperti karakter set, judul, tautan ke berkas eksternal, dan lainnya.
-   
-4.	`<meta charset="UTF-8">`: Ini mengatur karakter set dokumen sebagai UTF-8, yang mendukung banyak karakter dan simbol.
-   
-5.	`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: berguna untuk memberi tahu browser bagaimana cara menampilkan halaman web secara optimal pada perangkat berbeda. Ini mengatur tampilan halaman agar sesuai dengan lebar perangkat dan tingkat zoom awalnya adalah 1.0.
-
-6.	`<title>KopiKita.</title>`: untuk menampilkan judul halaman yang akan muncul di tab browser.
-
-7.	`link rel="preconnect"` dan `link href`: untuk menampilkan tautan ke font eksternal dari Google Fonts.
-
-8.	`<script src="https://unpkg.com/feather-icons"></script>`: kodingan tersebut merupakan tautan ke library Feather Icons yang digunakan untuk menampilkan ikon pada halaman web.
-9.	
-10.	![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
-
-11.	`<link rel="stylesheet" href="css/style.css" />`: merupakan tautan ke berkas CSS eksternal yang akan mengatur tampilan halaman.
-
-12.	`<body>`: bagian ini berisi konten aktual yang akan ditampilkan pada halaman web. Mencakup navigasi dengan tautan ke berbagai bagian halaman, bagian hero (bagian atas) dengan judul, deskripsi, dan tombol "Beli Sekarang", bagian "Tentang Kami" dengan gambar dan teks yang menjelaskan tentang kedai kopi, bagian "Menu" dengan daftar menu kopi yang ditampilkan dengan gambar, bagian "Kontak" dengan peta Google Maps dan formulir kontak, footer (bagian bawah) dengan tautan sosial media, tautan navigasi, dan kredit pembuat halaman web.
+1. <!DOCTYPE html>: Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5.
+2.	‘<html lang="en">’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English).
+3.	‘<head>’: Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal.
 
 
-13.	`<script> feather.replace(); </script>`: berguna untuk mengaktifkan ikon Feather Icons pada halaman.
 
-14.	`<script src="js/script.js"></script>`: digunakan untuk menghubungkan halaman web dengan berkas JavaScript eksternal `script.js`, yang mungkin digunakan untuk menambahkan interaktivitas tambahan atau fungsi lainnya ke halaman web.
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
+6. `<nav class="navbar">...</nav>`: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen:
+<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, digunakan untuk penyesuaian gaya.
+`<div class="navbar-nav">...</div>`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak."
+
+7. `<div class="navbar-extra">...</div>`: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain:
+<a href="#" id="search-button"><i data-feather="search"></i></a>`: Menampilkan ikon search menggunakan Feather Icons.
+<a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>`: Menampilkan ikon keranjang belanja menggunakan Feather Icons.
+
+8. Kode di bawahnya adalah bagian dari pencarian (search form) yang belum sepenuhnya lengkap:
+`<div class="search-form">...</div>`: Ini tampaknya adalah bagian formulir pencarian.
+`<input type="search" id="search-box" placeholder="search here...">`: Ini adalah kotak input untuk memasukkan kata kunci pencarian.
+`<label for="search-box"><1 data-feather="search"></i></label>`: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search.
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/7a7cc06d-182c-45ee-a386-c7f880e799e8)
+9. <section class="hero" id="home">: Ini adalah elemen <section> yang memiliki atribut class dengan nilai "hero" dan atribut id dengan nilai "home". Ini digunakan untuk mendefinisikan bagian halaman web yang merupakan bagian hero atau bagian yang paling menonjol di halaman tersebut. Class dan ID ini dapat digunakan untuk merujuk dan memodifikasi bagian ini melalui CSS atau JavaScript.
+10. <main class="content">: Ini adalah elemen <main> yang memiliki atribut class dengan nilai "content". Elemen <main> digunakan untuk mengelompokkan konten utama dari halaman web. Class "content" mungkin digunakan untuk memodifikasi tampilan konten dalam bagian hero menggunakan CSS.
+11. <h1>: Ini adalah elemen judul utama (heading) level 1 yang digunakan untuk menampilkan judul utama halaman. Kontennya adalah "Selamat Datang di Kedai Kopi 'Kopi Kita' Kami Menyediakan Kopi yang Berkualitas Untuk Anda Nikmati." Ini adalah pesan selamat datang yang akan ditampilkan dalam huruf besar dan menonjol di halaman.
+12. <p>: Ini adalah elemen paragraf yang digunakan untuk menampilkan teks deskripsi dalam bagian hero. Kontennya adalah "Mari nikmati minuman kami," yang mengundang pengunjung untuk menikmati minuman di kedai kopi.
+13. <a href="#menu" class="cta">Beli Sekarang</a>: Ini adalah elemen tautan (link) yang memiliki atribut href yang merujuk ke elemen dengan id "menu" di halaman yang sama. Ini akan membuat tautan ini mengarahkan pengunjung ke bagian "Menu" saat diklik. Class "cta" mungkin digunakan untuk memodifikasi tampilan tautan ini, misalnya, dengan menggunakan gaya tombol (button).
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/6c100a8e-8ffa-408b-a4d7-5bd4bfee2223)
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/49f2a73d-24f3-4dee-857c-93975147ea0b)
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/87778148-82ba-4200-8e1d-3b75f2ae51fd)
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/728e31ec-f88d-4e7f-a66b-d8268491a44f)
+
 
 PENJELASAN KODINGAN CSS
 
