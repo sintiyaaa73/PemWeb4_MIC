@@ -364,6 +364,90 @@ PENJELASAN KODINGAN HTML
 
 
 PENJELASAN KODINGAN CSS
+![css1](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/09d85d2a-ccee-4de4-beee-46e9ec876ab4)
+
+1.	primary digunakan untuk mendefinisikan warna primer/utama yang akan digunakan pada style. Nilainya di set ke #b6895b
+2.	bg digunakan untuk mendefinisikan warna latar belakang global. Nilainya di set ke #010101 yang merupakan warna hitam pekat.
+3.	Selector (*) digunakan untuk menseleksi semua elemen HTML didalam dokumen. Digunakan untuk mereset style default dari browser.
+	•	Margin 0; menghapus margin pada semua elemen 
+	•	Padding 0; mengahapus padding pada semua elemen
+	•	Box-sizing: border-box; membuat width dan height elemen termasuk padding dan border
+	•	Outline: none; menghapus outline pada semua elemen 
+	•	Border: none; menghapus border pada semua elemen 
+	•	Text- decoration: none; menghapus text decoration seperti underline pada semua elemen 
+4.	Selector html digunakan untuk mengatur style pada elemen <html>
+	•	Scroll-behavior: smooth; membuat scroll halaman menjadi halus, tidak seketika berpindah
+5.	Selector body digunakan untuk mengatur style pada elemen <body>
+	•	Font-family: “Poppins”, sans-serif, mengatur font poppins sebagai font utama content
+	•	Background-color: var(--bg); mengatur warna background ke variabel --bg
+	•	Color: #fff; mengatur warna tekt ke putih
+
+![css2](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/11371322-25e8-4d58-8d65-34b85f8996ea)
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/0d110eba-ef13-4493-80b2-dae08d163f1b)
+
+6.	Navbar digunakan untuk mengatur style untuk elemen dengan class navbar
+	•	Display:flex; membuat navbar menjadi flexible box
+	•	Justify-content: space-between; konyen di dalam navbar akan merata ke kanan dan kiri
+	•	Align-items: center; konten vertikal di tengah
+	•	Padding: jarak dalam navbar
+	•	Background-color: warna latar belakang 
+	•	Border-bottom: garis bawah
+	•	Position: fixed; agar navbar selalu stick diatas meskipun di scroll
+	•	Z-index: agar navbar selalu diatas konten lain
+7.	Navbar-logo styling untuk elemen logo di navbar
+8.	Navbar-nav a styling untuk link di dalam navbar
+9.	Navbar-nav a:hover styling saat link di hover
+10.	Navbar-nav a:after pseudo element untuk menambahkan garis bawah saat link di hover
+11.	Navbar-extra a styling untuk link ekstra di navbar sebelah kanan
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/1e6ac269-bf57-4131-b466-6fecd9219d7d)
+
+12.	.navbar .search-from ini adalah form pencarian yang diposisikan absolute di dalam navbar. Beberapa properti yang digunakan 
+	•	Position: absolute; agar bisa diposisikan diluar alur normal 
+	•	Top: 100%; posisi form tepat dibawah navbar
+	•	Right: 7%; posisi kanan 7% dari navbar
+	•	Transform: scaleY(0); form discale/disembunyikan di sumbu Y jadi tinggi 0
+	•	Transform-origin: top; titik origin transform diatas 
+	•	Transition: 0.3s; efek transisi saat muncul
+13.	.navbar .search-from input style untuk input text pada form pencarian.
+14.	.navbar .search-from label style untuk label/icon pencarian. Diberi cursor pointer agar bisa di klik.
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/a071a394-2ffb-4558-83ab-815aebc54def) 
+
+15.	Hero styling container untuk hero section. 
+	•	Min-height: 100vh; tinggi minimal 100% viewport height
+	•	Display: flex; agar konten di dalam bisa diatur posisinya
+	•	Align-items: center; konten vertikal di tengah 
+	•	Background-image: gambar latar belakang 
+	•	Background-sixe: cover; gambar mengcover section
+	•	Position: relative; diperlukan untuk pseudo element
+16.	Hero::after pseudo element untuk membuat overlay gelap di bagian bawah173.
+17.	.hero.content styling konten di dalam hero section
+18.	.hero.content h1 styling heading di dalam konten hero.
+	•	Font-size: ukuran font
+	•	Color : warna font putih
+	•	Text-shadow : memberi bayangan text
+	•	Line-height : jarak baris
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/4bc34821-d92f-44df-bf26-2f0e8c449118)
+
+
+19.	.hero .content h1 span memberi style khusus untuk elemen span di dalam heading hero. Warnanya diubah ke variable –primary
+20.	.hero.content p styling untuk paragraf di hero section 
+	•	Font-size: ukuran font
+	•	Margin-top: jarak dari heading
+	•	Line-height: tinggi baris
+	•	Text-shadow: memberi bayangan teks
+	•	Mix-blend-mode: difference meberi efek warna paragraf
+21.	.hero .content .cta styling untuk tombol CTA(call to action)
+	•	Font-size: ukuran font
+	•	Display: inline-block; agar bisa diatur ukurannya 
+	•	Padding: isi padding
+	•	Color: warna font
+	•	Background-color: warna latar
+	•	Border-radius: ujung bulat
+	•	Box-shadow: bayangan 
 
 1. `:root`: merupakan pseudo-class yang digunakan untuk mendefinisikan variabel CSS. Dalam kodingan ini, didefinisikan dua variabel utama:
 
