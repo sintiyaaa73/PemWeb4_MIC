@@ -247,25 +247,36 @@ PENJELASAN KODINGAN HTML
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/4586fc2b-dc67-4468-9838-674db2385f3c)
 
 <!-- 1. '<!DOCTYPE html>' : Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5. -->
-<!DOCTYPE html>
+<!DOCTYPE html> 
+
 <!-- 2. ‘<html lang="en">’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English). -->
 <html lang="en">
-<head>
-    <!-- 3. '<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal. -->
+<head> 
+	
+    <!-- 3. '<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal. --> 
+    
     <!-- • <meta charset="UTF-8">: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode). -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+    
     <!-- • <meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan mengatur tingkat zoom awal. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
     <!-- • <title>KopiKita.</title>: Menyediakan judul halaman web yang akan ditampilkan di tab peramban. -->
-    <title>KopiKita.</title>
-    <!-- • Referensi font eksternal dari Google Fonts. Ini digunakan untuk mengambil jenis huruf Poppins dengan berbagai varian yang akan digunakan dalam desain halaman web. -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <!-- • <script src="https://unpkg.com/feather-icons"></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web. -->
-    <script src="https://unpkg.com/feather-icons"></script>
-    <!-- • Referensi ke file CSS eksternal yang digunakan untuk mengatur gaya halaman web. File "style.css" akan mengatur tampilan dan gaya halaman. -->
+    <title>KopiKita.</title> 
+    
+    <!-- • Referensi font eksternal dari Google Fonts. Ini digunakan untuk mengambil jenis huruf Poppins dengan berbagai varian yang akan digunakan dalam desain halaman web. --> 
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> 
+    <!-- • <script src="https://unpkg.com/feather-icons"></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web. --> 
+    
+    <script src="https://unpkg.com/feather-icons"></script> 
+    
+    <!-- • Referensi ke file CSS eksternal yang digunakan untuk mengatur gaya halaman web. File "style.css" akan mengatur tampilan dan gaya halaman. --> 
+    
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<!-- 4. <body>: Ini adalah bagian utama yang berisi konten sebenarnya yang akan ditampilkan pada halaman web. Bagian ini masih belum lengkap dalam kode yang Anda berikan dan akan berisi elemen-elemen seperti header, konten, footer, tautan, gambar, dan lainnya yang membangun tampilan halaman web. -->
+</head> 
+
+<!-- 4. <body>: Ini adalah bagian utama yang berisi konten sebenarnya yang akan ditampilkan pada halaman web. Bagian ini masih belum lengkap dalam kode yang Anda berikan dan akan berisi elemen-elemen seperti header, konten, footer, tautan, gambar, dan lainnya yang membangun tampilan halaman web. --> 
+
 <body>
 </body>
 </html>
