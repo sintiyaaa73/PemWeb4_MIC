@@ -283,7 +283,7 @@ PENJELASAN KODINGAN HTML
    
 9.	<main class=" content ">: Ini adalah elemen <main> yang memiliki atribut class dengan nilai "content". Elemen <main> digunakan untuk mengelompokkan konten utama dari halaman web. Class "content" mungkin digunakan untuk memodifikasi tampilan konten dalam bagian hero menggunakan CSS.
 
-10.	<h1>: Ini adalah elemen judul utama (heading) level 1 yang digunakan untuk menampilkan judul utama halaman. Kontennya adalah "Selamat Datang di Kedai Kopi 'Kopi Kita' Kami Menyediakan Kopi yang Berkualitas Untuk Anda Nikmati." Ini adalah pesan selamat datang yang akan ditampilkan dalam huruf besar dan menonjol di halaman.
+10.	< h1 >: Ini adalah elemen judul utama (heading) level 1 yang digunakan untuk menampilkan judul utama halaman. Kontennya adalah "Selamat Datang di Kedai Kopi 'Kopi Kita' Kami Menyediakan Kopi yang Berkualitas Untuk Anda Nikmati." Ini adalah pesan selamat datang yang akan ditampilkan dalam huruf besar dan menonjol di halaman.
 
 11.	<p>: Ini adalah elemen paragraf yang digunakan untuk menampilkan teks deskripsi dalam bagian hero. Kontennya adalah "Mari nikmati minuman kami," yang mengundang pengunjung untuk menikmati minuman di kedai kopi.
 
