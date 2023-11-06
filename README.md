@@ -265,7 +265,7 @@ PENJELASAN KODINGAN HTML
 13. <a href="#menu" class="cta">Beli Sekarang</a>: Ini adalah elemen tautan (link) yang memiliki atribut href yang merujuk ke elemen dengan id "menu" di halaman yang sama. Ini akan membuat tautan ini mengarahkan pengunjung ke bagian "Menu" saat diklik. Class "cta" mungkin digunakan untuk memodifikasi tampilan tautan ini, misalnya, dengan menggunakan gaya tombol (button).
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/6c100a8e-8ffa-408b-a4d7-5bd4bfee2223)
-1.	<section id="about" class="about">: Ini adalah elemen <section> yang memiliki atribut id dengan nilai "about" dan atribut class dengan nilai "about". Ini digunakan untuk mendefinisikan bagian halaman web yang berisi informasi tentang kedai kopi dan timnya.
+1.	'<section id="about" class="about">': Ini adalah elemen <section> yang memiliki atribut id dengan nilai "about" dan atribut class dengan nilai "about". Ini digunakan untuk mendefinisikan bagian halaman web yang berisi informasi tentang kedai kopi dan timnya.
 2.	<h2><span>Tentang</span>Kami</h2>: Ini adalah elemen judul (heading) level 2 yang digunakan untuk menampilkan judul bagian "Tentang Kami". Bagian "Tentang" diberikan dalam elemen <span> untuk memungkinkan pemformatan khusus melalui CSS jika diperlukan.
 3.	<div class="row">: Ini adalah sebuah elemen div dengan atribut class "row" yang digunakan untuk membuat baris atau row di dalam bagian "Tentang Kami". Biasanya, elemen div dengan class "row" digunakan dalam desain responsif untuk mengatur tata letak konten.
 4.	<div class="about-img">: Ini adalah elemen div dengan atribut class "about-img" yang digunakan untuk menampilkan gambar yang mewakili bagian "Tentang Kami". Gambar tersebut mungkin menampilkan interior kedai kopi, logo, atau gambar yang relevan.
@@ -273,6 +273,7 @@ PENJELASAN KODINGAN HTML
 6.	<div class="content">: Ini adalah elemen div dengan atribut class "content" yang digunakan untuk mengelompokkan konten teks yang menjelaskan "Tentang Kami".
 7.	<h3>Kenapa memilih kopi kami?</h3>: Ini adalah elemen judul (heading) level 3 yang digunakan untuk menampilkan judul subbagian yang menjelaskan mengapa pengunjung harus memilih kopi dari kedai ini.
 8.	p = text deskripsi
+
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/49f2a73d-24f3-4dee-857c-93975147ea0b)
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/87778148-82ba-4200-8e1d-3b75f2ae51fd)
