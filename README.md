@@ -221,11 +221,17 @@ blob:![WhatsApp Image 2023-11-06 at 16 17 14](https://github.com/sintiyaaa73/Pem
 
 7. Referensi
 [1] https://escappuccino.com/ PinomarthinApril 8, 2023
-[2] Britton, Carol (2001). Object-Oriented Systems Development. McGraw-Hill. hlm. 31, 269. ISBN 0-07-709544-8.
-[3] Tryo Asnafi, Software Engineering Student, Aug 13, 2020
-[4] Tdy Ok  Minggu, 17 Desember 2017, https://koleksibukukuliah.blogspot.com/
-[5] Vol 6, No 3 (2018) Aditya https://journal.trunojoyo.ac.id
-[6] Analisis kebutuhan perangkat lunak: studi kasus sistem informasi pusat karier UIN Syarif Hidayatullah Jakarta, Annisa Daffa Oktriyana, (2022)
+
+[2] Britton, Carol (2001). Object-Oriented Systems Development. McGraw-Hill. hlm. 31, 269. ISBN 0-07-709544-8. 
+
+[3] Tryo Asnafi, Software Engineering Student, Aug 13, 2020 
+
+[4] Tdy Ok  Minggu, 17 Desember 2017, https://koleksibukukuliah.blogspot.com/ 
+
+[5] Vol 6, No 3 (2018) Aditya https://journal.trunojoyo.ac.id 
+
+[6] Analisis kebutuhan perangkat lunak: studi kasus sistem informasi pusat karier UIN Syarif Hidayatullah Jakarta, Annisa Daffa Oktriyana, (2022) 
+
 [7] Vennina, Githa Ananta (2022) Analisis kebutuhan perangkat lunak sistem informasi back office (Studi kasus Hublang dan teknik Perumdam Among Tirto Kota Batu). Software Development, Digital Business Intelligence, and Computer Engineering, 1 (1): 1. pp. 1-8. ISSN 2963-9026
 
 
