@@ -546,3 +546,37 @@ PENJELASAN KODINGAN CSS
 	•	Mengubah tinggi peta di tablet
 	•	Menghilangkan padding atas form contact di tablet 
 50.	Jadi media queris ini untuk menyesuaikan styling di berbagai ukuran layar agar website responsif.
+
+PENJELASAN KODINGAN JS
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/5d0bd951-1ab3-494a-b3bc-0e2289b670d1)
+
+1.	`const navbarnav = document.querySelector(".navbar-nav");` mendefinisikan konstanta `navbarnav` yang menyimpan referensi ke elemen dengan kelas 	"navbar-nav" di dalam dokumen HTML. Ini digunakan untuk mengakses elemen menu navigasi.
+
+2.	`document.querySelector("#menu").onclick = () => { ... }`
+	membuat fungsi panah (arrow function) yang diinisialisasi di bawahnya akan dijalankan ketika elemen dengan id "menu" di klik.
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/e1a4c5e7-0d66-4e40-816c-6bae4a72947d)
+
+3.	Fungsi tersebut melakukan toggle, yaitu mengaktifkan atau menonaktifkan kelas "active" pada elemen yang disimpan dalam variabel `navbarnav` dan 	mengubah tampilan menu.
+
+4.	`const searchForm = document.querySelector('.search-form');` mendefinisikan konstanta `searchForm` yang menyimpan referensi ke elemen dengan kelas 	"search-form" di dalam dokumen HTML. Ini digunakan untuk mengakses elemen formulir pencarian.
+
+5.	`const searchBox = document.querySelector('#search-box');` mendefinisikan konstanta `searchBox` yang menyimpan referensi ke elemen dengan id "search-box" di dalam dokumen HTML. Ini digunakan untuk mengakses kotak input pencarian.
+
+6.	`document.querySelecor('#search-button').onclick = () => { ... }` dipakai untuk membuat fungsi panah di bawahnya akan dijalankan ketika elemen dengan 	id "search-button" diklik.
+
+7.	Fungsi ini melakukan dua hal: mengaktifkan/menonaktifkan kelas "active" pada elemen `searchForm` dan memberikan fokus ke elemen `searchBox`, 		memungkinkan pengguna mulai mengetikkan pencarian.
+
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124551048/163c0eba-b9d1-48f0-a502-b676db74178a)
+
+8.	`const menu = document.querySelector("#menu");` mendefinisikan konstanta `menu` yang menyimpan referensi ke elemen dengan id "menu" di dalam dokumen 	HTML.
+
+9. 	`document.addEventListener("click", function (e) { ... });` digunakan untuk menambahkan event listener pada dokumen untuk mendengarkan setiap kali 	klik terjadi di halaman. Fungsi tersebut memeriksa apakah klik dilakukan di luar elemen `menu` dan di luar elemen `navbarnav`. Jika ya, maka kelas 	"active" di elemen `navbarnav` dihapus, sehingga menu akan disembunyikan jika pengguna mengklik di luar area menu.
+
+
+
+
+
+
+
