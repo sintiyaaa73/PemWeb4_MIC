@@ -9,8 +9,8 @@ Version 1.0 Disetujui
 
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/bce9cf39-9a94-4545-883b-62218075238b)
-Disusun Oleh :
 
+Disusun Oleh :
 SINTIYA 22091397079 MIC
 
 ZAHROH SALSABILA 22091397094 MIC
@@ -36,6 +36,7 @@ Universitas Negeri Surabaya
 
 
 Copyright © 1999 by Karl E. Wiegers. Permission is granted to use, modify, and distribute this document.
+
 
 Daftar Isi
 Daftar Isi	ii
