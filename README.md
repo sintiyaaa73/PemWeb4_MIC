@@ -266,7 +266,7 @@ PENJELASAN KODINGAN HTML
 9.	<main class="content">: Ini adalah elemen <main> yang memiliki atribut class dengan nilai "content". Elemen <main> digunakan untuk mengelompokkan konten utama dari halaman web. Class "content" mungkin digunakan untuk memodifikasi tampilan konten dalam bagian hero menggunakan CSS.
 10.	<h1>: Ini adalah elemen judul utama (heading) level 1 yang digunakan untuk menampilkan judul utama halaman. Kontennya adalah "Selamat Datang di Kedai Kopi 'Kopi Kita' Kami Menyediakan Kopi yang Berkualitas Untuk Anda Nikmati." Ini adalah pesan selamat datang yang akan ditampilkan dalam huruf besar dan menonjol di halaman.
 11.	<p>: Ini adalah elemen paragraf yang digunakan untuk menampilkan teks deskripsi dalam bagian hero. Kontennya adalah "Mari nikmati minuman kami," yang mengundang pengunjung untuk menikmati minuman di kedai kopi.
-12.	<a href="#menu" class="cta">Beli Sekarang</a>: Ini adalah elemen tautan (link) yang memiliki atribut href yang merujuk ke elemen dengan id "menu" di halaman yang sama. Ini akan membuat tautan ini mengarahkan pengunjung ke bagian "Menu" saat diklik. Class "cta" mungkin digunakan untuk memodifikasi tampilan tautan ini, misalnya, dengan menggunakan gaya tombol (button).
+12.	<a href="" class=""> Beli Sekarang</a>: Ini adalah elemen tautan (link) yang memiliki atribut href yang merujuk ke elemen dengan id "menu" di halaman yang sama. Ini akan membuat tautan ini mengarahkan pengunjung ke bagian "Menu" saat diklik. Class "cta" mungkin digunakan untuk memodifikasi tampilan tautan ini, misalnya, dengan menggunakan gaya tombol (button).
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/6c100a8e-8ffa-408b-a4d7-5bd4bfee2223)
 13.	<section id="about" class="about">: Ini adalah elemen <section> yang memiliki atribut id dengan nilai "about" dan atribut class dengan nilai "about". Ini digunakan untuk mendefinisikan bagian halaman web yang berisi informasi tentang kedai kopi dan timnya.
@@ -280,7 +280,7 @@ PENJELASAN KODINGAN HTML
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/49f2a73d-24f3-4dee-857c-93975147ea0b)
 21.	<section menu">: Ini adalah elemen <section> yang memiliki atribut id dengan nilai "menu" dan atribut class dengan nilai "menu". Ini digunakan untuk mendefinisikan bagian halaman web yang berisi daftar menu makanan atau minuman yang ditawarkan oleh kedai kopi.
-22.	<h2><span>Menu</span>Kami</h2>: Ini adalah elemen judul (heading) level 2 yang digunakan untuk menampilkan judul bagian "Menu Kami". Bagian "Menu" diberikan dalam elemen <span> untuk memungkinkan pemformatan khusus melalui CSS jika diperlukan.
+22.	<h2> <span> Menu </span> Kami </h2>: Ini adalah elemen judul (heading) level 2 yang digunakan untuk menampilkan judul bagian "Menu Kami". Bagian "Menu" diberikan dalam elemen <span> untuk memungkinkan pemformatan khusus melalui CSS jika diperlukan.
 23.	<p>Menu yang kami sediakan:</p>: Ini adalah elemen paragraf yang digunakan untuk menampilkan teks deskripsi yang memberi tahu pengunjung bahwa bagian ini berisi daftar menu yang tersedia di kedai kopi.
 24.	<div class="row">: Ini adalah elemen div dengan atribut class "row" yang digunakan untuk membuat baris atau row di dalam bagian "Menu". Seperti yang disebutkan sebelumnya, elemen div dengan class "row" biasanya digunakan untuk mengatur tata letak konten, terutama dalam desain responsif.
 25.	<div class="menu-card">: Ini adalah elemen div dengan atribut class "menu-card" yang digunakan untuk mengelompokkan menu-menu atau item-item makanan/minuman yang akan ditampilkan.
