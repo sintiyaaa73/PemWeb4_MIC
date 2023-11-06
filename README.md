@@ -245,8 +245,7 @@ PENJELASAN KODINGAN HTML
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
 6. `<nav class="navbar">...</nav>`: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen:
-<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, digunakan untuk penyesuaian gaya.
-`<div class="navbar-nav">...</div>`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak."
+<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, digunakan untuk penyesuaian gaya.`<div class="navbar-nav">...</div>`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak."
 
 7. `<div class="navbar-extra">...</div>`: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain:
 <a href="#" id="search-button"><i data-feather="search"></i></a>`: Menampilkan ikon search menggunakan Feather Icons.
@@ -258,23 +257,7 @@ PENJELASAN KODINGAN HTML
 `<label for="search-box"><1 data-feather="search"></i></label>`: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search.
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/7a7cc06d-182c-45ee-a386-c7f880e799e8)
-9. <section class="hero" id="home">: Ini adalah elemen <section> yang memiliki atribut class dengan nilai "hero" dan atribut id dengan nilai "home". Ini digunakan untuk mendefinisikan bagian halaman web yang merupakan bagian hero atau bagian yang paling menonjol di halaman tersebut. Class dan ID ini dapat digunakan untuk merujuk dan memodifikasi bagian ini melalui CSS atau JavaScript.
-10. <main class="content">: Ini adalah elemen <main> yang memiliki atribut class dengan nilai "content". Elemen <main> digunakan untuk mengelompokkan konten utama dari halaman web. Class "content" mungkin digunakan untuk memodifikasi tampilan konten dalam bagian hero menggunakan CSS.
-11. <h1>: Ini adalah elemen judul utama (heading) level 1 yang digunakan untuk menampilkan judul utama halaman. Kontennya adalah "Selamat Datang di Kedai Kopi 'Kopi Kita' Kami Menyediakan Kopi yang Berkualitas Untuk Anda Nikmati." Ini adalah pesan selamat datang yang akan ditampilkan dalam huruf besar dan menonjol di halaman.
-12. <p>: Ini adalah elemen paragraf yang digunakan untuk menampilkan teks deskripsi dalam bagian hero. Kontennya adalah "Mari nikmati minuman kami," yang mengundang pengunjung untuk menikmati minuman di kedai kopi.
-13. <a href="#menu" class="cta">Beli Sekarang</a>: Ini adalah elemen tautan (link) yang memiliki atribut href yang merujuk ke elemen dengan id "menu" di halaman yang sama. Ini akan membuat tautan ini mengarahkan pengunjung ke bagian "Menu" saat diklik. Class "cta" mungkin digunakan untuk memodifikasi tampilan tautan ini, misalnya, dengan menggunakan gaya tombol (button).
-
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/6c100a8e-8ffa-408b-a4d7-5bd4bfee2223)
-1.	'<section id="about" class="about">': Ini adalah elemen <section> yang memiliki atribut id dengan nilai "about" dan atribut class dengan nilai "about". Ini digunakan untuk mendefinisikan bagian halaman web yang berisi informasi tentang kedai kopi dan timnya.
-2.	<h2><span>Tentang</span>Kami</h2>: Ini adalah elemen judul (heading) level 2 yang digunakan untuk menampilkan judul bagian "Tentang Kami". Bagian "Tentang" diberikan dalam elemen <span> untuk memungkinkan pemformatan khusus melalui CSS jika diperlukan.
-3.	<div class="row">: Ini adalah sebuah elemen div dengan atribut class "row" yang digunakan untuk membuat baris atau row di dalam bagian "Tentang Kami". Biasanya, elemen div dengan class "row" digunakan dalam desain responsif untuk mengatur tata letak konten.
-4.	<div class="about-img">: Ini adalah elemen div dengan atribut class "about-img" yang digunakan untuk menampilkan gambar yang mewakili bagian "Tentang Kami". Gambar tersebut mungkin menampilkan interior kedai kopi, logo, atau gambar yang relevan.
-5.	<img src="tentangkami.img.jpg" alt="Tentang Kami" />: Ini adalah elemen gambar (<img>) yang menampilkan gambar yang terkait dengan bagian "Tentang Kami". Atribut src digunakan untuk menentukan sumber gambar, dan atribut alt digunakan untuk teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat.
-6.	<div class="content">: Ini adalah elemen div dengan atribut class "content" yang digunakan untuk mengelompokkan konten teks yang menjelaskan "Tentang Kami".
-7.	<h3>Kenapa memilih kopi kami?</h3>: Ini adalah elemen judul (heading) level 3 yang digunakan untuk menampilkan judul subbagian yang menjelaskan mengapa pengunjung harus memilih kopi dari kedai ini.
-8.	p = text deskripsi
-
-
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/49f2a73d-24f3-4dee-857c-93975147ea0b)
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/87778148-82ba-4200-8e1d-3b75f2ae51fd)
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/728e31ec-f88d-4e7f-a66b-d8268491a44f)
