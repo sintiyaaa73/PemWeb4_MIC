@@ -236,6 +236,8 @@ Use case diagram adalah proses penggambaran yang dilakukan untuk menunjukkan hub
 
 PENJELASAN KODINGAN HTML
 
+![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/4586fc2b-dc67-4468-9838-674db2385f3c)
+
 1.	`<!DOCTYPE html>`: berfungsi untuk memberi tahu komputer bahwa halaman ini adalah halaman web dalam bahasa HTML.
 
 2.	`<html lang="en">`: tempat utama di mana seluruh halaman web akan diletakkan. Sedangkan `lang="en"` menunjukkan bahwa halaman ini menggunakan bahasa Inggris.
