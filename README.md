@@ -244,71 +244,48 @@ blob:![WhatsApp Image 2023-11-06 at 16 17 14](https://github.com/sintiyaaa73/Pem
 
 PENJELASAN KODINGAN HTML
 
+ 
+
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/4586fc2b-dc67-4468-9838-674db2385f3c)
 
-	1. '<!DOCTYPE html>' : Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5. -->
-<!DOCTYPE html> 
+1. '<!DOCTYPE html>' : Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman ini adalah dokumen HTML5.
 
-	 2. ‘<html lang="en">’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English). -->
-<html lang="en">
-<head> 
-	
-    3. '<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal. --> 
-    
-    	 • <meta charset="UTF-8">: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode). -->
-    <meta charset="UTF-8"> 
-    
-    	• <meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan mengatur tingkat zoom awal. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    
-    	• <title>KopiKita.</title>: Menyediakan judul halaman web yang akan ditampilkan di tab peramban. -->
-    <title>KopiKita.</title> 
-    
-    	• Referensi font eksternal dari Google Fonts. Ini digunakan untuk mengambil jenis huruf Poppins dengan berbagai varian yang akan digunakan dalam desain halaman web. --> 
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> 
-	 • <script src="https://unpkg.com/feather-icons"></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web. --> 
-    
-    <script src="https://unpkg.com/feather-icons"></script> 
-    
-	• Referensi ke file CSS eksternal yang digunakan untuk mengatur gaya halaman web. File "style.css" akan mengatur tampilan dan gaya halaman. --> 
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head> 
+2.	‘<html lang="en">’: Ini adalah elemen root yang mendefinisikan dokumen HTML dan menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris (English).
+   
+3.	'<head>' : Ini adalah bagian kepala dari halaman web, yang mengandung informasi-informasi meta dan referensi eksternal.
 
-	4. <body>: Ini adalah bagian utama yang berisi konten sebenarnya yang akan ditampilkan pada halaman web. Bagian ini masih belum lengkap dalam kode yang Anda berikan dan akan berisi elemen-elemen seperti header, konten, footer, tautan, gambar, dan lainnya yang membangun tampilan halaman web. --> 
+•	<meta charset="UTF-8">: Mendefinisikan karakter set yang digunakan dalam dokumen, dalam hal ini UTF-8 (Unicode).
 
-<body>
-</body>
-</html>
+•	<meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan mengatur tingkat zoom awal.
 
+•	<title>KopiKita.</title>: Menyediakan judul halaman web yang akan ditampilkan di tab peramban.
 
+•	Referensi font eksternal dari Google Fonts. Ini digunakan untuk mengambil jenis huruf Poppins dengan berbagai varian yang akan digunakan dalam desain halaman web.
 
+•	<script src="https://unpkg.com/feather-icons"></script>: Mendownload skrip JavaScript untuk menggunakan ikon dari Feather Icons. Ini memungkinkan penggunaan ikon yang dapat dimasukkan ke dalam halaman web.
+
+•	Referensi ke file CSS eksternal yang digunakan untuk mengatur gaya halaman web. File "style.css" akan mengatur tampilan dan gaya halaman.
+
+4.	<body>: Ini adalah bagian utama yang berisi konten sebenarnya yang akan ditampilkan pada halaman web. Bagian ini masih belum lengkap dalam kode yang Anda berikan dan akan berisi elemen-elemen seperti header, konten, footer, tautan, gambar, dan lainnya yang membangun tampilan halaman web.
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/5eb8b00d-38c6-4b45-b4b8-a0ad92971e8c)
 
-<!-- 5. <nav class="navbar">...</nav>: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen: -->
-<nav class="navbar">
-    <!-- • 5.1 <a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen <span>, digunakan untuk penyesuaian gaya. -->
-    <a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>
-    <!-- • 5.2 <div class="navbar-nav">...</div>: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak." -->
-    <div class="navbar-nav">...</div>
-</nav>
+5. `<nav class="navbar">...</nav>`: Ini adalah bagian dari navigasi, dimulai dengan kelas "navbar". Terdiri dari beberapa elemen:
+   
+<a href="#" class="navbar-logo">Kopi<span>Kita</span>.</a>`: Ini adalah logo dengan teks "Kopi" dan "Kita" yang terpisah oleh elemen `<span>`, digunakan untuk penyesuaian gaya.`<div class="navbar-nav">...</div>`: Bagian ini berisi tautan navigasi, seperti "Home," "Tentang Kami," "Menu," dan "Kontak."
 
-<!-- 6. <div class="navbar-extra">...</div>: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain: -->
-<div class="navbar-extra">
-    <!-- • 6.1 <a href="#" id="search-button"><i data-feather="search"></i></a>: Menampilkan ikon search menggunakan Feather Icons. -->
-    <a href="#" id="search-button"><i data-feather="search"></i></a>
-    <!-- • 6.2 <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>: Menampilkan ikon keranjang belanja menggunakan Feather Icons. -->
-    <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
-</div>
+6. `<div class="navbar-extra">...</div>`: Ini adalah bagian ekstra di navbar, yang berisi dua tautan lain:
+   
+<a href="#" id="search-button"><i data-feather="search"></i></a>`: Menampilkan ikon search menggunakan Feather Icons.
 
-<!-- 7. Kode di bawahnya adalah bagian dari pencarian (search form) yang belum sepenuhnya lengkap: -->
-<div class="search-form">
-    <!-- • 7.1 <input type="search" id="search-box" placeholder="search here...">: Ini adalah kotak input untuk memasukkan kata kunci pencarian. -->
-    <input type="search" id="search-box" placeholder="search here...">
-    <!-- • 7.2 <label for="search-box"><i data-feather="search"></i></label>: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search. -->
-    <label for="search-box"><i data-feather="search"></i></label>
-</div>
+<a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>`: Menampilkan ikon keranjang belanja menggunakan Feather Icons.
 
+7. Kode di bawahnya adalah bagian dari pencarian (search form) yang belum sepenuhnya lengkap:
+   
+`<div class="search-form">...</div>`: Ini tampaknya adalah bagian formulir pencarian.
+
+`<input type="search" id="search-box" placeholder="search here...">`: Ini adalah kotak input untuk memasukkan kata kunci pencarian.
+
+`<label for="search-box"><1 data-feather="search"></i></label>`: Label yang terkait dengan kotak pencarian, yang seharusnya menampilkan ikon search.
 
 ![image](https://github.com/sintiyaaa73/PemWeb4_MIC/assets/124516555/7a7cc06d-182c-45ee-a386-c7f880e799e8)
 
