@@ -22,7 +22,7 @@ body {
   color: #fff;
 }
 
-/*Navbar*/
+/Navbar/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -84,8 +84,41 @@ body {
 #hamburger-menu {
   display: none;
 }
+/Navbar search form/
+.navbar .search-from {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: #fff;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
 
-/*Hero Section*/
+.navbar .search-from.active{
+  transform: scaleY(1);
+}
+
+.navbar .search-from input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(--bg);
+  padding: 1rem;
+}
+
+.navbar .search-from label{
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: var(--bg);
+}
+
+/Hero Section/
 .hero {
   min-height: 100vh;
   display: flex;
@@ -128,12 +161,13 @@ body {
 }
 
 .hero .content p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
   line-height: 1.4;
-  font-weight: 100;
+  font-weight: 400;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   mix-blend-mode: difference;
+  
 }
 
 .hero .content .cta {
@@ -147,7 +181,7 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-/*About Section*/
+/About Section/
 .about,
 .menu,
 .contact {
@@ -197,7 +231,7 @@ body {
   line-height: 1.6;
 }
 
-/*Menu Section*/
+/Menu Section/
 .menu h2,
 .contact h2 {
   margin-bottom: 1rem;
@@ -214,7 +248,7 @@ body {
 .menu .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 1rem;
   justify-content: center;
 }
 
@@ -224,10 +258,10 @@ body {
 }
 
 .menu .row .menu-card img {
-  width: 40%;
+  width: 35%;
 }
 
-/*Contact Section*/
+/Contact Section/
 .contact .row {
   display: flex;
   margin-top: 2rem;
@@ -236,13 +270,13 @@ body {
 
 .contact .row .map {
   flex: 1 1 45rem;
-  width: 100%;
+  width: 70%;
   object-fit: cover;
 }
 
 .contact .row form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  flex: 1 1 30rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -273,7 +307,7 @@ body {
   cursor: pointer;
 }
 
-/*Footer*/
+/Footer/
 footer {
   background-color: var(--primary);
   text-align: center;
@@ -313,14 +347,14 @@ footer .credit a {
   font-weight: 700;
 }
 
-/*Media Queries*/
-/*laptop*/
+/Media Queries/
+/laptop/
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
-/*tablet*/
+/tablet/
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
